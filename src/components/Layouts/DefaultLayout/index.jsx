@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { Children } from 'react'
 
-export default function DefaultLayout() {
+export default function DefaultLayout({Children}) {
     return (
-        <div>DefaultLayout</div>
+        <section>{Children}</section>
     )
 }

@@ -1,7 +1,9 @@
-import React from 'react'
+import DefaultLayout from '../../components/Layouts/DefaultLayout'
 
 export default function Landing() {
   return (
-    <div>Landing</div>
+    <DefaultLayout>
+      <div>Landing</div>
+    </DefaultLayout>
   )
 }
