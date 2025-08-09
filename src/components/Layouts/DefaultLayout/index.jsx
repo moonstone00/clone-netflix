@@ -1,7 +1,6 @@
-import React, { Children } from 'react'
 
-export default function DefaultLayout({Children}) {
+export default function DefaultLayout({ children }) {
     return (
-        <section>{Children}</section>
+        <section>{ children } </section>
     )
 }
