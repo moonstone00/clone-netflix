@@ -1,6 +1,10 @@
+import Navbar from "../../../pages/Landing/Navbar";
 
 export default function DefaultLayout({ children }) {
     return (
-        <section>{ children } </section>
+        <section>
+            <Navbar/>
+            { children }
+        </section>
     )
 }
