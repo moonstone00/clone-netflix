@@ -8,7 +8,6 @@ export default function OptionLanguage() {
     const [, setLanguage] = useAtom(languageAtom)
 
     const handleSelect = (event) => {
-        console.log("testing")
         setLanguage(event.target.value)
     }
     return (
