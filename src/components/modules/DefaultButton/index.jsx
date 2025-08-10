@@ -3,11 +3,11 @@ import React from 'react'
 export default function DefaultButton({
     text,
     onClick,
-    styles = "bg-red-500 text-white py-1 px-4 rounded",
+    styles,
     isIcon = false
 }) {
     return (
-        <button className={`${styles}`} onClick={onClick}>
+        <button className={`bg-[#e40a0f] text-white py-1 px-4 rounded ${styles}`} onClick={onClick}>
             {text}
             {
                 isIcon && (

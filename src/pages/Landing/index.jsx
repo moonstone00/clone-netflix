@@ -1,9 +1,10 @@
 import DefaultLayout from '../../components/Layouts/DefaultLayout'
+import Jumbotron from '../../components/modules/Jumbotron'
 
 export default function Landing() {
   return (
     <DefaultLayout>
-      <div className='text-red-900' >Landing</div>
+      <Jumbotron/>
     </DefaultLayout>
   )
 }

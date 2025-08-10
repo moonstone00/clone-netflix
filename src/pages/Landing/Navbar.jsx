@@ -6,7 +6,7 @@ export default function Navbar() {
     const navigate = useNavigate()
 
     return (
-        <header>
+        <header className="relative z-20" >
             <nav className=" flex justify-between items-center pr-10 pl-7 py-4" >
                 <div>
                     <img src="/netflix-logo-icon-dea-afrizal.png" alt="netflix-logo.png" width={105} height={45} />
