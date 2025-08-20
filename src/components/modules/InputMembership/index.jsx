@@ -18,9 +18,10 @@ export default function InputMembership() {
                         <div className='relative flex justify-center items-center gap-2 py-4 ' >
                             <input 
                                 placeholder={item.labelInput} 
-                                className='w-full p-4 bg-black/50 rounded-md border border-white/50 peer placeholder-transparent'
+                                className='w-full p-4 text-slate-400 bg-black/50 rounded-md border border-white/50 peer placeholder-transparent'
                             />
-                            <label className='absolute top-0 left-0 pl-4 peer-placeholder-shown:top-8 peer-focus:top-[16px] transition-all' >
+                            <label className='absolute top-0 left-0 pl-4
+                            text-slate-400 peer-placeholder-shown:top-8 peer-focus:top-[16px] transition-all' >
                                 {item.labelInput}
                             </label>
                             <DefaultButton

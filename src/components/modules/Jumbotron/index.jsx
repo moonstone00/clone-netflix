@@ -10,7 +10,7 @@ export default function Jumbotron() {
     const [Language] = useAtom(languageAtom)
 
     return (
-        <div>
+        <div className="mb-24 px-8" >
             <img
                 className='absolute top-0 left-0 object-cover h-[700px] w-full opacity-60'
                 src={JUMBOTRON_IMAGE} alt='Jumbotron' />
