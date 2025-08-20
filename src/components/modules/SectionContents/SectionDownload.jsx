@@ -25,7 +25,7 @@ export default function SectionDownload() {
                 of={Language === 'en' ? LIST_CONTENT_2_EN : LIST_CONTENT_2_ID}
                 render={(item, index) => (
                     <div key={index} >
-                        <h2 className='text-5xl font-black' >{item.title}</h2>
+                        <h2 className='text-5xl font-black' >{item.title}....</h2>
                         <p className='text-2xl mt-4' >{item.desc}</p>
                     </div>
                 )}
