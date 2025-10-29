@@ -30,12 +30,6 @@ export default function SectionDownload() {
                     </div>
                 )}
             />
-            <p>Testing</p>
-            <p>Ghifani</p>
-            <div>
-                <h1>Judul</h1>
-                <p>Keterangan</p>
-            </div>
         </SectionLayout>
     )
 }
