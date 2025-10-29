@@ -3,6 +3,7 @@ import EachUtils from '../../../utils/EachUtils'
 import { LIST_LANGUAGE } from "../../../constants/listLanguage.js"
 import { useAtom } from 'jotai'
 import { languageAtom } from "../../../jotai/atoms.js"
+import { cn } from '../../../utils/cn.js'
 
 export default function OptionLanguage() {
     const [, setLanguage] = useAtom(languageAtom)
@@ -11,7 +12,10 @@ export default function OptionLanguage() {
         setLanguage(event.target.value)
     }
     return (
-        <div className='relative bg-[#1a1510] text-white rounded border border-gray-400 w-[200px] pl-8' >
+        <div className={cn(
+            'relative w-[200px] pl-8',
+            'bg-[#1a1510] text-white rounded border border-gray-400'
+        )}>
             <div className='absolute top-[7px] left-2' >
                 <svg
                     width="16"

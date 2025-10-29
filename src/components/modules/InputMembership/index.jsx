@@ -15,7 +15,7 @@ export default function InputMembership() {
                 render={(item, index) => (
                     <div key={index} >
                         <h3 className='text-white' >{item.title}</h3>
-                        <div className='relative flex justify-center items-center gap-2 py-4 ' >
+                        <div className='relative flex justify-center items-center gap-2 py-4' >
                             <input 
                                 placeholder={item.labelInput} 
                                 className='w-full p-4 text-slate-400 bg-black/50 rounded-md border border-white/50 peer placeholder-transparent'
